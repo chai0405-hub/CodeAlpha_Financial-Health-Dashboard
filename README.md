@@ -4,7 +4,7 @@
 
 ### CodeAlpha Power BI Internship — Task 1
 
-**Interactive Financial Analytics • Budgeting • Profitability • Forecasting**
+**Financial Analytics • Budgeting • Profitability • Forecasting • Decision Support**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=000000)
 ![DAX](https://img.shields.io/badge/DAX-1F4E78?style=for-the-badge&logo=microsoft&logoColor=white)
@@ -16,93 +16,106 @@
 
 ---
 
-## 🎯 Project Mission
+## 🎯 Project Overview
 
-The **Financial Health Dashboard** is an interactive Power BI solution designed to transform raw financial records into meaningful business insights for an SME.
+The **Financial Health Dashboard** is an interactive Power BI project created for the **CodeAlpha Power BI Internship — Task 1**.
 
-The dashboard brings together:
+The dashboard is designed to analyze the financial status of an SME by combining **income statement performance, balance sheet health, cash-flow movement, profitability analysis, budget comparison, and forecasting** into one decision-support solution.
 
-- 💰 **Income Statement Analysis**
-- 🏦 **Balance Sheet Monitoring**
-- 💵 **Cash Flow Analysis**
-- 📈 **Profitability Trends**
-- 🎯 **Actual vs Budget Performance**
-- 🔮 **Revenue Forecasting**
-- 📊 **Interactive Financial KPIs**
+The project helps answer questions such as:
 
-> **Goal:** Help decision-makers understand what happened, why it happened, and what may happen next.
+- How much revenue and profit is the business generating?
+- Are actual results meeting the budget?
+- Which expense categories are driving costs?
+- Is the business financially liquid?
+- How are assets, liabilities, and equity positioned?
+- What is the cash-flow position?
+- What could future revenue look like?
 
 ---
 
-## 📋 CodeAlpha Task Requirement
+# 📋 CodeAlpha Task Requirement
 
 <p align="center">
-  <img src="screenshots/task-requirement.png" alt="CodeAlpha Task 1 Requirement" width="900"/>
+  <img src="screenshots/task-requirement.png" alt="CodeAlpha Task 1 Financial Health Dashboard Requirement" width="950"/>
 </p>
 
-### Required Deliverable
+### Objective
 
-> An interactive Power BI report with dynamic visualizations and actionable financial insights.
+Develop a dashboard analyzing an organization's financial status with real-time insights, particularly useful for SMEs.
+
+### Key Requirements
+
+- Visualize **Income Statements**
+- Visualize **Balance Sheets**
+- Visualize **Cash Flows**
+- Analyze **profitability trends over time**
+- Provide **forecasting for budgeting and financial planning**
+- Deliver an **interactive Power BI report with actionable insights**
 
 ---
 
-# 🧭 Dashboard Architecture
+# 🧭 Dashboard Structure
 
-The final solution contains **3 purpose-built analytical pages**:
+The final report contains **three analytical pages**:
 
-<div align="center">
-
-| Page | Focus |
+| Page | Purpose |
 |---|---|
-| 🟦 **Executive Overview** | Overall financial health |
-| 🟩 **Income Statement Analysis** | Revenue, cost, profit & budget performance |
-| 🟪 **Forecast & Planning** | Future outlook, variance & planning |
-
-</div>
+| 🟦 **Executive Overview** | Overall financial health and core KPIs |
+| 🟩 **Income Statement Analysis** | Revenue, expenses, profitability and budget performance |
+| 🟪 **Forecast & Planning** | Revenue forecast, variance analysis and financial planning |
 
 ---
 
-# 🟦 1. Executive Overview
+# 🟦 Page 1 — Executive Overview
 
 <p align="center">
-  <img src="screenshots/overview.png" alt="Executive Overview Dashboard" width="1000"/>
+  <img src="screenshots/overview.png" alt="Financial Health Dashboard Executive Overview" width="1100"/>
 </p>
 
-The Executive Overview acts as the **financial command center**.
+The **Executive Overview** acts as the financial command center of the report.
 
-### 🔹 Core KPIs
+### 📌 Key KPIs
 
-| KPI | Business Meaning |
-|---|---|
-| 💰 Revenue | Total operating income |
-| 📈 Gross Profit | Revenue after direct costs |
-| 💵 Net Profit | Final profitability |
-| 📊 Net Profit Margin % | Profitability efficiency |
-| 🏦 Closing Assets | Latest asset position |
-| 💳 Net Cash Flow | Net movement of cash |
+- Revenue
+- Gross Profit
+- Net Profit
+- Net Profit Margin %
+- Closing Assets
+- Net Cash Flow
 
-### 🔹 Visual Analysis
+### 📊 Visuals
 
 - Revenue vs Budget — Monthly
 - Net Profit Margin Trend
-- Profitability Trend
+- Profitability Trend — Monthly
 - Cash Flow Summary
 - Balance Sheet Summary
-- Current Ratio
-- Debt-to-Equity Ratio
-- Interactive Year / Quarter / Month filters
+- Closing Assets
+- Closing Liabilities
+- Closing Equity
+- Closing Current Ratio
+- Closing Debt-to-Equity
+
+### 🎛 Interactive Filters
+
+- Year
+- Quarter
+- Month
+
+This page gives management a quick snapshot of profitability, liquidity, leverage, and cash movement.
 
 ---
 
-# 🟩 2. Income Statement Analysis
+# 🟩 Page 2 — Income Statement Analysis
 
 <p align="center">
-  <img src="screenshots/income-statement.png" alt="Income Statement Analysis Dashboard" width="1000"/>
+  <img src="screenshots/income-statement.png" alt="Income Statement Analysis Dashboard" width="1100"/>
 </p>
 
-This page dives deeper into **operating performance and profitability**.
+The **Income Statement Analysis** page provides deeper analysis of operating performance.
 
-### 🔹 KPIs
+### 📌 Key KPIs
 
 - Revenue
 - Cost of Goods Sold (COGS)
@@ -111,65 +124,73 @@ This page dives deeper into **operating performance and profitability**.
 - Net Profit
 - Net Profit Margin %
 
-### 🔹 Analytical Visuals
+### 📊 Visuals
 
-- **Income Statement — Actual vs Budget**
-- **Revenue vs Cost Trend**
-- **Actual vs Budget — Revenue**
-- **Actual vs Budget — Net Profit**
-- **Operating Expense Breakdown**
-- **Profitability Margin Trend**
+- Income Statement — Actual vs Budget
+- Revenue vs Cost Trend
+- Actual vs Budget — Revenue
+- Actual vs Budget — Net Profit
+- Operating Expense Breakdown
+- Profitability Margin Trend
 
-### 💡 Business Value
+### 💡 Insights Enabled
 
 This page helps identify:
 
-- Which costs are increasing
-- Whether revenue is covering operating expenses
-- Where actual results deviate from budget
-- Which expense categories require management attention
+- Whether revenue growth is strong enough to cover costs
+- Which expense categories consume the most resources
+- Where actual performance differs from budget
 - Whether profitability is improving or weakening
+- Which cost areas may require management attention
 
 ---
 
-# 🟪 3. Forecast & Planning
+# 🟪 Page 3 — Forecast & Planning
 
 <p align="center">
-  <img src="screenshots/forecast-planning.png" alt="Forecast and Planning Dashboard" width="1000"/>
+  <img src="screenshots/forecast-planning.png" alt="Forecast and Planning Dashboard" width="1100"/>
 </p>
 
-The final page turns historical data into a **forward-looking financial planning tool**.
+The **Forecast & Planning** page converts historical financial performance into forward-looking business information.
 
-### 🔹 Planning KPIs
+### 📌 Planning KPIs
 
 - Actual Revenue
 - Budget Revenue
 - Revenue Variance %
 - Profit Variance %
 
-### 🔹 Forecasting Features
+### 🔮 Forecasting & Planning Visuals
 
-- 🔮 **Revenue Forecast — Next 6 Months**
-- 📉 Forecast confidence interval
-- 🎯 Actual Revenue vs Budget
-- 💹 Actual vs Budget — Net Profit
-- 📊 Budget variance monitoring
+- Revenue Forecast — Next 6 Months
+- Forecast Confidence Interval
+- Actual Revenue vs Budget
+- Actual vs Budget — Net Profit
+- Budget variance monitoring
 
-> This page supports management in evaluating whether future financial targets appear achievable.
+This page supports management in evaluating future performance and planning against expected financial targets.
 
 ---
 
-# 📐 Key Financial Measures
+# 📐 Important Financial Measures
 
-| Measure | Formula / Interpretation |
+| KPI / Measure | Purpose |
 |---|---|
-| **Gross Profit** | Revenue − COGS |
-| **Net Profit** | Gross Profit − Operating Expenses − Other Expense − Tax |
+| **Revenue** | Total operating income |
+| **COGS** | Direct cost of producing revenue |
+| **Gross Profit** | Revenue minus COGS |
 | **Gross Profit Margin %** | Gross Profit ÷ Revenue |
+| **Operating Expenses** | Day-to-day operating costs |
+| **Net Profit** | Profit after expenses and tax |
 | **Net Profit Margin %** | Net Profit ÷ Revenue |
+| **Closing Assets** | Latest available asset position |
+| **Closing Liabilities** | Latest liability position |
+| **Closing Equity** | Latest equity position |
 | **Current Ratio** | Current Assets ÷ Current Liabilities |
-| **Debt-to-Equity** | Total Liabilities ÷ Total Equity |
-| **Revenue Variance %** | (Actual Revenue − Budget Revenue) ÷ Budget Revenue |
+| **Debt-to-Equity** | Liabilities ÷ Equity |
+| **Net Cash Flow** | Net operating, investing and financing cash movement |
+| **Revenue Variance %** | Actual Revenue vs Budget Revenue |
+| **Profit Variance %** | Actual Profit vs Budget Profit |
 
 ---
 
@@ -236,20 +257,33 @@ DIVIDE(
 )
 ```
 
+### Revenue Variance %
+
+```DAX
+Revenue Variance % =
+DIVIDE(
+    [Revenue] - [Budget Revenue],
+    [Budget Revenue],
+    0
+)
+```
+
 ---
 
 # 🗂️ Data Model
 
+A dedicated Calendar table is connected to the financial fact table using a **one-to-many relationship**.
+
 ```text
-┌─────────────────┐
-│    Calendar     │
-│  Date / Month   │
-│ Quarter / Year  │
-└────────┬────────┘
-         │ 1
-         │
-         │ *
-┌────────▼────────────┐
+┌─────────────────────┐
+│      Calendar       │
+│ Date / Month / Year │
+│      Quarter        │
+└──────────┬──────────┘
+           │ 1
+           │
+           │ *
+┌──────────▼──────────┐
 │   Financial_Data    │
 │ Income Statement    │
 │ Balance Sheet       │
@@ -258,42 +292,43 @@ DIVIDE(
 └─────────────────────┘
 ```
 
-The dedicated **Calendar table** supports:
+The Calendar table supports:
 
-- Month sorting
 - Year filtering
 - Quarter filtering
-- Month-over-Month analysis
-- Year-over-Year analysis
+- Month filtering
+- Correct month sorting
+- Month-over-Month calculations
+- Year-over-Year calculations
 - Forecasting
 
 ---
 
-# 🧹 Project Workflow
+# 🔄 Project Workflow
 
 ```text
-Raw Financial Dataset
-        ↓
+Financial Dataset
+       ↓
 Power Query Cleaning
-        ↓
+       ↓
 Data Type Validation
-        ↓
-Calendar Table Creation
-        ↓
+       ↓
+Calendar Table
+       ↓
 Data Model Relationship
-        ↓
-DAX Financial Measures
-        ↓
-KPI Development
-        ↓
+       ↓
+DAX Measures
+       ↓
+Financial KPIs
+       ↓
 Actual vs Budget Analysis
-        ↓
+       ↓
 Profitability Analysis
-        ↓
-Balance Sheet & Cash Flow
-        ↓
+       ↓
+Balance Sheet & Cash Flow Analysis
+       ↓
 Revenue Forecasting
-        ↓
+       ↓
 Interactive Power BI Dashboard
 ```
 
@@ -301,17 +336,13 @@ Interactive Power BI Dashboard
 
 # 🛠️ Tools & Technologies
 
-<div align="center">
-
-| Technology | Purpose |
+| Technology | Usage |
 |---|---|
 | 🟨 **Microsoft Power BI Desktop** | Dashboard development |
-| 🟦 **DAX** | Financial calculations & KPIs |
-| 🟩 **Power Query** | Data cleaning & transformation |
-| 📗 **Microsoft Excel** | Source financial dataset |
-| 🐙 **GitHub** | Documentation & portfolio hosting |
-
-</div>
+| 🟦 **DAX** | Financial calculations and measures |
+| 🟩 **Power Query** | Data cleaning and transformation |
+| 📗 **Microsoft Excel** | Source dataset |
+| 🐙 **GitHub** | Project documentation and portfolio hosting |
 
 ---
 
@@ -321,30 +352,31 @@ Interactive Power BI Dashboard
 ![Data Modeling](https://img.shields.io/badge/Data%20Modeling-0F766E?style=flat-square)
 ![DAX](https://img.shields.io/badge/DAX-7C3AED?style=flat-square)
 ![KPI Design](https://img.shields.io/badge/KPI%20Design-E11D48?style=flat-square)
-![Budget Analysis](https://img.shields.io/badge/Budget%20Analysis-F59E0B?style=flat-square)
 ![Financial Ratios](https://img.shields.io/badge/Financial%20Ratios-0891B2?style=flat-square)
+![Budget Analysis](https://img.shields.io/badge/Budget%20Analysis-F59E0B?style=flat-square)
 ![Forecasting](https://img.shields.io/badge/Forecasting-16A34A?style=flat-square)
 ![Dashboard Design](https://img.shields.io/badge/Dashboard%20Design-4338CA?style=flat-square)
 
 ---
 
-# 💡 Business Insights Enabled
+# 💡 Business Value
 
-The dashboard helps decision-makers:
+The dashboard allows users to:
 
-- 📈 Monitor revenue and profitability
-- 🎯 Compare actual performance against budget
-- 💸 Detect overspending and cost pressure
-- 🧾 Identify major operating-expense drivers
-- 💧 Evaluate liquidity using the Current Ratio
-- ⚖️ Monitor leverage using Debt-to-Equity
-- 💵 Understand operating, investing and financing cash flows
-- 🔮 Estimate future revenue
-- 📊 Support budgeting and financial planning
+- Monitor revenue and profitability
+- Compare actual results against budgets
+- Detect cost pressure and overspending
+- Identify major expense drivers
+- Evaluate liquidity using the Current Ratio
+- Evaluate leverage using Debt-to-Equity
+- Monitor operating, investing and financing cash flows
+- Track profitability trends over time
+- Forecast future revenue
+- Support budgeting and financial planning
 
 ---
 
-# 📁 Suggested Repository Structure
+# 📁 Repository Structure
 
 ```text
 Financial-Health-Dashboard/
@@ -362,30 +394,33 @@ Financial-Health-Dashboard/
 
 ---
 
-# 🌟 What I Learned
+# 🌟 Key Learning Outcomes
 
-This project strengthened my practical understanding of:
+Through this project, I strengthened my practical understanding of:
 
-- Financial statement analysis
-- DAX measure creation
-- Filter context
-- Financial ratio calculations
-- Budget variance analysis
-- Power BI forecasting
-- Interactive dashboard design
-- Converting raw financial data into actionable business insights
+- Financial analytics
+- Power Query
+- DAX calculations
+- Data modeling
+- KPI design
+- Financial ratios
+- Actual vs Budget analysis
+- Profitability analysis
+- Interactive report design
+- Forecasting and financial planning
+- Converting raw financial data into actionable insights
 
 ---
 
-# 🏁 Final Result
+# 🏁 Project Status
 
 <div align="center">
 
-### ✅ CodeAlpha Power BI Internship  
-### ✅ Task 1 — Financial Health Dashboard  
+### ✅ CodeAlpha Power BI Internship
+### ✅ Task 1 — Financial Health Dashboard
 ### ✅ Completed Successfully
 
-**From raw financial data → to insights → to better decisions.**
+**From financial data → to analysis → to insights → to better decisions.**
 
 </div>
 
@@ -393,14 +428,14 @@ This project strengthened my practical understanding of:
 
 ## ⚠️ Disclaimer
 
-The financial dataset used in this project is **synthetic** and was created solely for educational, internship, and portfolio purposes. It does not represent the financial records of any real organization.
+The dataset used in this project is **synthetic** and is intended only for educational, internship, and portfolio purposes. It does not represent the financial records of any real company.
 
 ---
 
 <div align="center">
 
-### ⭐ If you find this project useful, consider starring the repository!
+### ⭐ Thank you for exploring this project!
 
-**Data becomes powerful when it supports better decisions.**
+**Data becomes valuable when it supports better decisions.**
 
 </div>
